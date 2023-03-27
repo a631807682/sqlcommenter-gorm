@@ -3,7 +3,7 @@
 gorm plugin for https://github.com/google/sqlcommenter
 
 [![go report card](https://goreportcard.com/badge/github.com/a631807682/sqlcommenter-gorm "go report card")](https://goreportcard.com/report/github.com/a631807682/sqlcommenter-gorm)
-[![test status](https://github.com/a631807682/sqlcommenter-gorm/workflows/tests/badge.svg?branch=master "test status")](https://github.com/a631807682/sqlcommenter-gorm/actions)
+[![test status](https://github.com/a631807682/sqlcommenter-gorm/workflows/tests/badge.svg?branch=main "test status")](https://github.com/a631807682/sqlcommenter-gorm/actions)
 [![MIT license](https://img.shields.io/badge/license-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT)
 [![Go.Dev reference](https://img.shields.io/badge/go.dev-reference-blue?logo=go&logoColor=white)](https://pkg.go.dev/github.com/a631807682/sqlcommenter-gorm)
 ![visitor badge](https://visitor-badge.glitch.me/badge?page_id=a631807682.sqlcommenter-gorm)
