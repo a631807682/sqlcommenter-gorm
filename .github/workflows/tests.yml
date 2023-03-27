@@ -1,12 +1,6 @@
 name: tests
 
-on:
-  push:
-    branches-ignore:
-      - 'gh-pages'
-  pull_request:
-    branches-ignore:
-      - 'gh-pages'
+on: [ push, pull_request ]
 
 jobs:
   # Label of the container job
