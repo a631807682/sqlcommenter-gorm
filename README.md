@@ -18,5 +18,6 @@ gorm plugin for https://github.com/google/sqlcommenter
     ...
     sess := DB.Scopes(sqlcommentergorm.ContextInject(ctx)).Session(&gorm.Session{})
     sess.Create(&user)
-    // INSERT INTO `users` (`created_at`,`updated_at`,`deleted_at`,`name`,`age`,`birthday`,`active`) VALUES ('2023-03-27 16:03:14.276','2023-03-27 16:03:14.276',NULL,'foo',18,NULL,false) /* action='mockHandler',db_driver='mysql',framework='gorm',route='GET--%2Fmytest%2F%3Aid' */
+    // inject the following comments
+    /* action='mockHandler',db_driver='mysql',framework='gorm',route='GET--%2Fmytest%2F%3Aid' */
 ```
